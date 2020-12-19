@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6E7FA01F-8C1D-48E8-8844-C9E7B56CCEA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeverBadWeather.DomainModel", "NeverBadWeather.DomainModel\NeverBadWeather.DomainModel.csproj", "{D32F1124-FC44-425E-A090-FB799FD602AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{AB908003-B1FE-4035-983B-C11DE2786198}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{D6449DE2-F2B0-4D20-AE04-A8DD9CCFFC24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserInterface", "UserInterface", "{00D86BC1-9EDF-4861-8326-EF199E54D6D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeverBadWeather.DomainServices", "NeverBadWeather.DomainServices\NeverBadWeather.DomainServices.csproj", "{0CBF229F-FFFF-4520-B19D-29553C376A78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeverBadWeather.ApplicationServices", "NeverBadWeather.ApplicationServices\NeverBadWeather.ApplicationServices.csproj", "{360ACF95-6018-4313-A007-08E91526350A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeverBadWeatcher.UserInterfaceConsole", "NeverBadWeatcher.UserInterfaceConsole\NeverBadWeatcher.UserInterfaceConsole.csproj", "{000011C3-E7F2-48C6-A2E5-FFEF28198CCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeverBadWeather.Infrastructure.WeatherForecastService", "NeverBadWeather.Infrastructure.WeatherForecastService\NeverBadWeather.Infrastructure.WeatherForecastService.csproj", "{D1B9752A-C7BD-4012-8D18-7A38AC96C920}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeverBadWeather.ApplicationService.UnitTest", "NeverBadWeather.UnitTest\NeverBadWeather.ApplicationService.UnitTest.csproj", "{F3DD752E-EAAE-4D34-9C55-76A2B2A8E6DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeverBadWeather.UserInterfaceApi", "NeverBadWeather.UserInterfaceApi\NeverBadWeather.UserInterfaceApi.csproj", "{435ABAAF-A603-4775-8D90-F0CE748B31AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeverBadWeather.Infrastructure.DataAccess", "NeverBadWeather.Infrastructure.DataAccess\NeverBadWeather.Infrastructure.DataAccess.csproj", "{3DFF4A4A-057B-4C2B-A6A6-72635340E64D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeverBadWeather.DomainModel.UnitTest", "NeverBadWeather.DomainModel.UnitTest\NeverBadWeather.DomainModel.UnitTest.csproj", "{6B349320-B872-45AE-97EC-4BDCC799EE54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D32F1124-FC44-425E-A090-FB799FD602AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32F1124-FC44-425E-A090-FB799FD602AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32F1124-FC44-425E-A090-FB799FD602AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32F1124-FC44-425E-A090-FB799FD602AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBF229F-FFFF-4520-B19D-29553C376A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBF229F-FFFF-4520-B19D-29553C376A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBF229F-FFFF-4520-B19D-29553C376A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBF229F-FFFF-4520-B19D-29553C376A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360ACF95-6018-4313-A007-08E91526350A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360ACF95-6018-4313-A007-08E91526350A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360ACF95-6018-4313-A007-08E91526350A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360ACF95-6018-4313-A007-08E91526350A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000011C3-E7F2-48C6-A2E5-FFEF28198CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000011C3-E7F2-48C6-A2E5-FFEF28198CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000011C3-E7F2-48C6-A2E5-FFEF28198CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000011C3-E7F2-48C6-A2E5-FFEF28198CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B9752A-C7BD-4012-8D18-7A38AC96C920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B9752A-C7BD-4012-8D18-7A38AC96C920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B9752A-C7BD-4012-8D18-7A38AC96C920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B9752A-C7BD-4012-8D18-7A38AC96C920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3DD752E-EAAE-4D34-9C55-76A2B2A8E6DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DD752E-EAAE-4D34-9C55-76A2B2A8E6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DD752E-EAAE-4D34-9C55-76A2B2A8E6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DD752E-EAAE-4D34-9C55-76A2B2A8E6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{435ABAAF-A603-4775-8D90-F0CE748B31AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435ABAAF-A603-4775-8D90-F0CE748B31AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435ABAAF-A603-4775-8D90-F0CE748B31AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435ABAAF-A603-4775-8D90-F0CE748B31AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DFF4A4A-057B-4C2B-A6A6-72635340E64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DFF4A4A-057B-4C2B-A6A6-72635340E64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DFF4A4A-057B-4C2B-A6A6-72635340E64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DFF4A4A-057B-4C2B-A6A6-72635340E64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B349320-B872-45AE-97EC-4BDCC799EE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B349320-B872-45AE-97EC-4BDCC799EE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B349320-B872-45AE-97EC-4BDCC799EE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B349320-B872-45AE-97EC-4BDCC799EE54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D32F1124-FC44-425E-A090-FB799FD602AC} = {6E7FA01F-8C1D-48E8-8844-C9E7B56CCEA0}
+		{0CBF229F-FFFF-4520-B19D-29553C376A78} = {6E7FA01F-8C1D-48E8-8844-C9E7B56CCEA0}
+		{360ACF95-6018-4313-A007-08E91526350A} = {6E7FA01F-8C1D-48E8-8844-C9E7B56CCEA0}
+		{000011C3-E7F2-48C6-A2E5-FFEF28198CCD} = {00D86BC1-9EDF-4861-8326-EF199E54D6D1}
+		{D1B9752A-C7BD-4012-8D18-7A38AC96C920} = {AB908003-B1FE-4035-983B-C11DE2786198}
+		{F3DD752E-EAAE-4D34-9C55-76A2B2A8E6DD} = {D6449DE2-F2B0-4D20-AE04-A8DD9CCFFC24}
+		{435ABAAF-A603-4775-8D90-F0CE748B31AB} = {00D86BC1-9EDF-4861-8326-EF199E54D6D1}
+		{3DFF4A4A-057B-4C2B-A6A6-72635340E64D} = {AB908003-B1FE-4035-983B-C11DE2786198}
+		{6B349320-B872-45AE-97EC-4BDCC799EE54} = {D6449DE2-F2B0-4D20-AE04-A8DD9CCFFC24}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE0BDAD9-8B8B-4F05-B1DE-0FA352C6BC91}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿.timeStepUpDown {
+    font-size: 140%;
+    user-select: none;
+}
+
+tr:nth-child(even) {
+    background: #CCC
+}
+
+table {
+    border-collapse: collapse;
+}
+
